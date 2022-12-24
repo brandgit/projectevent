@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../src/style/Wrapper/Wrapper.css";
+@import "../src/style/Header/Header.css";
+@import "../src/style/Services/Service.css";
+@import "../src/style/SearchBar/SearchBarInput.css";
+@import "../src/style/SearchBar/SearchInput.css";
+@import "../src/style/SearchBar/SearchContainer.css";
+@import "../src/style/Copyright/Copyright.css";
+@import "../src/style/Footer/Footer.css";
+@import "../src/style/Events/Events.css";
+@import "../src/style/SignIn/SignIn.css";

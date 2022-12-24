@@ -1,0 +1,341 @@
+.pop-up {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url("../../assets/images/SignIn-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+@media (min-width: 400px){
+    .pop-up {
+        width: 80%;
+        height: 80%;
+        border-radius: 15px;
+    }
+}
+@media (min-width: 700px){
+    .pop-up {
+        width: 60%;
+        height: 80%;
+        border-radius: 15px;
+    }
+}
+@media (min-width: 800px){
+    .pop-up {
+        width: 50%;
+        height: 80%;
+        border-radius: 15px;
+    }
+}
+
+/* .pop-up h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.image-blur {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.createaccount {
+    margin-top: 3%;
+    width: 100%;
+    background-color: grey;
+}
+
+.createaccount h1 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #009640;
+}
+
+.createaccount h3 {
+    font-weight: bold;
+    color: #6d6c6c;
+}
+
+.createaccount h2 {
+    color: #6d6c6c;
+}
+
+.input {
+    align-items: flex-end;
+    height: 97px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #009640;
+}
+
+.input input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3b3a3a;
+    text-align: center;
+}
+
+.longer {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.longer input {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #3b3a3a;
+    text-align: center;
+}
+
+.Btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+.Btn button {
+    color: #ffffff;
+    border-radius: 10px;
+    width: 45%;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.Btn input {
+    color: #ffffff;
+    border-radius: 10px;
+    width: 45%;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.input input::placeholder {
+    font-size: smaller;
+    color: rgb(94, 93, 93);
+}
+
+.longer input::placeholder {
+    font-size: smaller;
+    color: rgb(94, 93, 93);
+}
+
+@media (min-width: 400px) {
+    .pop-up {
+        width: 100%;
+        height: 100%;
+         border-radius: 15px; 
+    }
+
+    .createaccount h1 {
+        width: 100%;
+        font-size: 27px;
+        text-align: center;
+        background-color: yellow;
+    }
+
+    .input input {
+        width: 47%;
+        height: 47px;
+        border-radius: 7px;
+    }
+
+    .longer input {
+        width: 100%;
+        height: 47px;
+        border-radius: 7px;
+    }
+
+    .Btn button {
+        border-radius: 7px;
+        height: 37px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 600px) {
+    .pop-up {
+        width: 80%;
+        height: 80%;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 700px) {
+    .createaccount h1 {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .input {
+        align-items: flex-end;
+        height: 97px;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .longer {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .Btn {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 830px) {
+    .pop-up {
+        width: 100%;
+        height: 100%;
+    
+        border-radius: 15px;
+    }
+    .createaccount h1 {
+        width: 100%;
+        font-size: 34px;
+    }
+
+    .createaccount h3 {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .createaccount h2 {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .input {
+        align-items: flex-end;
+        height: 97px;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .longer {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .Btn {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .createaccount {
+        align-items: center;
+        width: 100%;
+        margin-top: 27px;
+    }
+
+    .Btn button {
+        font-size: 12px;
+    }
+
+} */
+
+
+/* 
+
+
+
+
+@media (min-width: 920px) {
+    .createaccount h1 {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .createaccount h3 {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .createaccount h2 {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .input {
+        align-items: flex-end;
+        height: 97px;
+        width: 40%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .longer {
+        height: 30%;
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .Btn {
+        width: 40%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .createaccount {
+        align-items: center;
+        width: 87%;
+        margin-top: 27px;
+    }
+
+    .Btn button {
+        font-size: 12px;
+    }
+
+    .input input {
+        width: 47%;
+        height: 47px;
+        border-radius: 7px;
+    }
+
+    .longer input {
+        width: 100%;
+        height: 47px;
+        border-radius: 7px;
+    }
+
+    .Btn button {
+        border-radius: 7px;
+        height: 37px;
+        font-size: 11px;
+    }
+
+} */

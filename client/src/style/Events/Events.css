@@ -1,0 +1,358 @@
+.wrapperEvent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100%; */
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.wrapperEvent::-webkit-scrollbar {
+    background-color: transparent;
+    width: 0px;
+}
+
+.wrapperTopEventsC {
+    display: flex;
+    border-radius: 15px;
+    height: 50vh;
+    background-image: url("../../assets/images/concert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 47%;
+}
+
+.wrapperTopEventsP {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 97%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.wrapperTopEventsS {
+    display: flex;
+    border-radius: 15px;
+    width: 97%;
+    height: 50vh;
+    background-image: url("../../assets/images/spectacle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 47%;
+}
+
+.wrapperTopEventsF {
+    display: flex;
+    border-radius: 15px;
+    width: 97%;
+    height: 50vh;
+    background-image: url("../../assets/images/festival4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 47%;
+}
+
+.wrapperTopEvents {
+
+    display: flex;
+    border-radius: 15px;
+    width: 97%;
+    height: 50vh;
+    /* background-color: aqua; */
+    background-image: url("../../assets/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.wrapperEvents {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.wrapperEvent {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.wrapperEvent2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.events {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.items {
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+}
+
+.wrapperImageEvent {
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.imageEvent {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.imageEventP {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.buttonEvent {
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+.wrapperServices {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+}
+
+
+/* @media screen and (min-width:300px) {
+
+    .wrapperTopEventsS,
+    .wrapperTopEventsC,
+    .wrapperTopEventsF,
+    .wrapperTopEventsP {
+        height: 40vh;
+        width: 50%;
+    }
+
+    .wrapperEvents {
+        width: 97%;
+    }
+}
+
+@media screen and (min-width:400px) {
+
+    .wrapperTopEventsS,
+    .wrapperTopEventsC,
+    .wrapperTopEventsF,
+    .wrapperTopEventsP {
+        height: 50vh;
+        width: 50%;
+        padding: 45%;
+    }
+
+
+
+    .wrapperEvents {
+        width: 100%;
+    }
+} */
+
+@media screen and (min-width:600px) {
+
+    .wrapperTopEventsS,
+    .wrapperTopEventsC,
+    .wrapperTopEventsF {
+        height: 70vh;
+        width: 94%;
+        padding: 30%;
+
+    }
+
+
+    .wrapperTopEventsP {
+        height: 50vh;
+        width: 94%;
+    }
+
+    .wrapperEvents {
+        width: 100%;
+    }
+
+    .items {
+        margin-top: 10px;
+        width: 49%;
+        height: 300px;
+    }
+
+    .imageEventP {
+        width: 80%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    .events {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .wrapperTopEventsP {
+        height: 50vh;
+        width: 94%;
+    }
+
+    .imageEventP {
+        width: 70%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+
+    }
+
+    .wrapperTopEventsS,
+    .wrapperTopEventsC,
+    .wrapperTopEventsF {
+        padding: 27%;
+
+    }
+}
+
+@media screen and (min-width:900px) {
+
+    .wrapperTopEventsS,
+    .wrapperTopEventsC,
+    .wrapperTopEventsF {
+        height: 80vh;
+        width: 95%;
+        padding: 25%;
+    }
+
+    .wrapperTopEventsP {
+        height: 50vh;
+        width: 95%;
+    }
+
+
+    .wrapperEvents {
+        width: 100%;
+    }
+
+    .items {
+        margin-top: 10px;
+        width: 32.5%;
+        height: 300px;
+    }
+
+    .wrapperEvent {
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .imageEventP {
+        width: 60%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+
+    }
+}
+
+@media screen and (min-width:1000px) {
+
+    .wrapperTopEventsS,
+    .wrapperTopEventsC,
+    .wrapperTopEventsF {
+        height: 65vh;
+        width: 60%;
+        padding: 16%;
+    }
+
+    .wrapperTopEventsP {
+        height: 60vh;
+        width: 96%;
+    }
+
+    .wrapperEvents {
+        width: 100%;
+    }
+
+    .items {
+        margin-top: 10px;
+        width: 32.5%;
+        height: 300px;
+    }
+
+    .wrapperServices {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 140px;
+        padding-bottom: 100px;
+    }
+
+    .imageEventP {
+        width: 70%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+
+    }
+}

@@ -1,0 +1,10 @@
+.wrapperSearchInput {
+    display: block;
+    width: 50%;
+}
+@media screen and (min-width:550px) {
+
+    .wrapperSearchInput {
+        display: none;
+    }
+} 
